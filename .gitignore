@@ -34,3 +34,8 @@ tspi_relocate_and_rotate_out_*
 
 # 文档生成
 generated-docs/
+
+# 第三方二进制库
+wsf_plugins/wsf_oms_uci/lib/*.so
+wsf_plugins/wsf_oms_uci/lib/*.dll
+wsf_plugins/wsf_oms_uci/lib/*.lib
