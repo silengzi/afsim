@@ -1,0 +1,36 @@
+# 编译构建产物
+BUILD*/
+build*/
+!building*/
+!build_*.py
+CMakeTmp/
+3rd_party/
+__pycache__/
+
+# 临时文件
+*.tmp
+temp*
+*.log
+*.lis
+*.db
+
+# 仿真输出文件
+*.evt
+*.aer
+*.aps
+*.draw
+*.gnu
+*.plt
+*.rep
+*.sed
+*.analysis_map
+*.vertical_map
+*.vg.xml
+auto_grid_*
+tspi_relocate_and_rotate_out_*
+
+# IDE/编辑器文件
+.vs*/
+
+# 文档生成
+generated-docs/
